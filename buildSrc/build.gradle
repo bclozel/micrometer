@@ -1,0 +1,21 @@
+plugins {
+	id 'java-gradle-plugin'
+}
+
+repositories {
+	mavenCentral()
+	gradlePluginPortal()
+}
+
+dependencies {
+	implementation "me.champeau.gradle:japicmp-gradle-plugin:0.4.1"
+}
+
+gradlePlugin {
+	plugins {
+		apiCompatibilityPlugin {
+			id = "io.micrometer.gradle.api-compatibility"
+			implementationClass = "io.micrometer.gradle.api.ApiCompatibilityPlugin"
+		}
+	}
+}
