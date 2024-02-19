@@ -168,6 +168,7 @@ kafkaClients = { module = "org.apache.kafka:kafka-clients", version.ref = "kafka
 kafkaStreams = { module = "org.apache.kafka:kafka-streams", version.ref = "kafka" }
 kafkaJunit = { module = "com.github.charithe:kafka-junit", version.ref = "kafka-junit" }
 kotlinxCoroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.7.3" }
+kotlinxCoroutinesReactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-reactor", version = "1.7.3" }
 latencyUtils = { module = "org.latencyutils:LatencyUtils", version.ref = "latency-utils" }
 lmaxDisruptor = "com.lmax:disruptor:3.4.4"
 logback12 = { module = "ch.qos.logback:logback-classic", version.ref = "logback12" }

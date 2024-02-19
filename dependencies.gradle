@@ -45,6 +45,7 @@ def VERSIONS = [
         libs.jaxbApi,
         libs.contextPropagation,
         libs.kotlinxCoroutines,
+        libs.kotlinxCoroutinesReactor,
         libs.ehcache2,
         libs.ehcache3,
         libs.activemqArtemisJakartaClient,
